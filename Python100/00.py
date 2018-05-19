@@ -2,14 +2,14 @@
 # reverse order of character string
 # Make the letters of the  string "GitHub" from the end to the beginning.
 
-str = "GitHub"
-print(str[-1::-1])
-
+str = "yumeme"
+print(str[::-1])
+ 
 '''
-str = "01234567"
+str = "abcdefgh"
 
 # Get specific letter
-str[0]        #'a'の先頭からzero-based
+str[0]        # 'a'の先頭からzero-based
 str[-1]       # 'h'，負の数でも指定可能（文末から遡っていく）今回はstr[7]と同義
 
 # スライス
