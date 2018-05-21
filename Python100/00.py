@@ -1,6 +1,6 @@
 # 00.py
 # reverse order of character string
-# Make the letters of the  string "GitHub" from the end to the beginning.
+# "abcdefg"を末尾から表示する
 
 str = "abcdefg"           # "str" はどんな文字で置き換えてもok
 print(str[::-1])          # 同じ名前の変数を使えば良い
