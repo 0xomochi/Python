@@ -1,15 +1,6 @@
-# 00.py
-# reverse order of character string
-# Make the letters of the  string "GitHub" from the end to the beginning.
+# 01.py
+# "yauamae" という文字列の1,3,5,7文字目を取り出して連結した文字列を得よ
 
-str = "abcdefg"          # "str" はどんな文字で置き換えてもok
-print(str[::-1])        # 同じ名前の変数を使えば良い
-
-
-# スライスについて
-'''
-str = "abcdefgh"
-
-str[0]        # 先頭から0番目の"a"が出力
-
-'''
+str = "yauamae"
+print(str[0::2])
+# print(str[0] + str[2] + str[4] + str[6])
