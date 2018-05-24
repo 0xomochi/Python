@@ -3,4 +3,6 @@
 
 str = "yauamae"
 print(str[0::2])
+
+# これはかっこ悪い
 # print(str[0] + str[2] + str[4] + str[6])
