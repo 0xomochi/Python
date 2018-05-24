@@ -1,4 +1,5 @@
 # learn zip() function
+# reference : https://note.nkmk.me/python-zip-usage-for/
 
 print("name / shinchoku / tamupoint")
 
